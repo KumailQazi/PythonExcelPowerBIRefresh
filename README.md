@@ -8,5 +8,5 @@ Steps:
 1.Open  example.pbix and refresh. (The data gets refreshed.)
 2.Run  Python Code. (It will update example.xlsx file.)
 3.Again, refresh example.pbix file, it wouldn’t get refreshed and will show blank values, however, excel file has been updated.
-4.Now  open example.xlsx file, press ctrl + C and close the file.
+4.Now  open example.xlsx file, press ctrl + S and close the file.
 5.Again, refresh example.pbix file. It will get updated.
