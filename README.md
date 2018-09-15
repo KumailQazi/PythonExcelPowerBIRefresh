@@ -1,4 +1,5 @@
 # PythonExcelPowerBIRefresh
+
 Scenario: This "Example.xlsx" file data is queried in MS Power BI. When Power BI is refreshed, system gets latest data from excel into Power BI. The issue is, when we get the excel data updated using the OpenPyXl Python library and refresh power BI, the data doesn't get updated in Power BI. However, when we manually update and save the excel file, data gets updated in Power BI on refresh. In both the cases, data in excel file is correctly being saved.
 
 Steps:
@@ -8,4 +9,4 @@ Steps:
 4.Now  open example.xlsx file, press ctrl + S and close the file.
 5.Again, refresh example.pbix file. It will get updated.
 
-In other words, when we update and save data in Excel using OpenPyXl Python library, some calculations are performed on it in excel, and refresh its powerbi connection, it gives error. When we again manually save the excel file and close it, the MSPowerBI connection works (It gets the calculated data from excel).
+In other words, When we update and save data in Excel using OpenPyXl Python library, some calculations are performed on it in excel, and refresh its powerbi connection, it gives error. When we again manually save the excel file and close it, the MSPowerBI connection works (It gets the calculated data from excel).
