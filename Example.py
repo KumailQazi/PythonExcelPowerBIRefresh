@@ -12,13 +12,13 @@ c1 = sheet.cell(row = 1, column = 1)
 c1.value = "Raza"
 
 c2 = sheet.cell(row= 1 , column = 2)
-c2.value = "6"
+c2.value = "7"
 
 c3 = sheet['A2']
 c3.value = "Zohair"
 
 # B2 means column = 2 & row = 2.
 c4 = sheet['B2']
-c4.value = "1"
+c4.value = "2"
 
 book.save("Example.xlsx")
