@@ -9,4 +9,4 @@ Steps:
 4.Now  open example.xlsx file, press ctrl + S and close the file.
 5.Again, refresh example.pbix file. It will get updated.
 
-In other words, When we update and save data in Excel using OpenPyXl Python library, some calculations are performed on it in excel, and refresh its powerbi connection, it gives error. When we again manually save the excel file and close it, the MSPowerBI connection works (It gets the calculated data from excel).
+In other words, When we update and save data in Excel using OpenPyXl Python library, some calculations are performed on it in excel, and refresh its powerbi connection, it shows blank table cells. When we again manually save the excel file and close it, the MSPowerBI connection works (It gets the calculated data from excel).
