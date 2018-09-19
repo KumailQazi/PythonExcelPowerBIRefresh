@@ -1,4 +1,4 @@
 Excel Version 1808 (Build 10730.20088 Click-to-Run)
 PowerBI Desktop Version: 2.62.5222.601 64-bit (September 2018)
-Python Version 3.6.4
-OpenPyXl version 2.5.4
+Python Version 3.7.0
+OpenPyXl version 2.5.7
